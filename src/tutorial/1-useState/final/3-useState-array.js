@@ -21,6 +21,9 @@ const UseStateArray = () => {
       <button className='btn' onClick={() => setPeople([])}>
         clear items
       </button>
+      <button className='btn' onClick={() => setPeople(data)}>
+        reset items
+      </button>
     </>
   );
 };

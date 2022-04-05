@@ -164,6 +164,7 @@ p {
   margin-right: 0.5rem;
   cursor: pointer;
   transition: var(--transition);
+  outline: none !important;
 }
 .btn:hover {
   background: var(--clr-primary-1);
